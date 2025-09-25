@@ -1,4 +1,4 @@
-# Класс дом
+# Класс дом 1
 class House:
     def __init__(
         self,
