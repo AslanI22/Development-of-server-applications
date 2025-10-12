@@ -1,4 +1,3 @@
-# Класс дом 1
 class House:
     def __init__(
         self,
@@ -131,6 +130,5 @@ def interactive_mode():
             print("Неверный выбор!")
 
 
-# Точка входа
 if __name__ == "__main__":
     interactive_mode()
