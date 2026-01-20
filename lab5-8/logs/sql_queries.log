@@ -1,0 +1,571 @@
+2025-11-11 21:11:06 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:11:06 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:11:06 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:11:06 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:11:06 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:11:20 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:11:20 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:11:20 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:11:20 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:11:20 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:12:47 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:12:47 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:12:47 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:12:47 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:12:47 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:12:49 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:12:49 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:12:49 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:12:49 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:12:49 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:12:51 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:12:51 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:12:51 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:12:51 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:12:51 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:12:52 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:12:52 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:12:52 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:12:52 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:12:52 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:12:53 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:12:53 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:12:53 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:12:53 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:12:53 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:13:17 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:13:17 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:13:17 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:13:17 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:13:17 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:13:19 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:13:19 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:13:19 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:13:19 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:13:19 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:13:29 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:13:29 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:13:29 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:13:29 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:13:29 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:13:35 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:13:35 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:13:35 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:13:35 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:13:35 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0025 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: PRAGMA temp.table_info("books")
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - PRAGMA temp.table_info("books")
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0010 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: CREATE TABLE books ( 	id INTEGER NOT NULL,  	title VARCHAR NOT NULL,  	author VARCHAR NOT NULL,  	year INTEGER NOT NULL,  	is_available BOOLEAN NOT NULL,  	PRIMARY KEY (id) )
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE books (
+	id INTEGER NOT NULL, 
+	title VARCHAR NOT NULL, 
+	author VARCHAR NOT NULL, 
+	year INTEGER NOT NULL, 
+	is_available BOOLEAN NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [no key 0.00283s] ()
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0436 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: CREATE INDEX ix_books_author ON books (author)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_books_author ON books (author)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [no key 0.00111s] ()
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0104 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: CREATE INDEX ix_books_title ON books (title)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_books_title ON books (title)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [no key 0.00104s] ()
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0078 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: CREATE INDEX ix_books_id ON books (id)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_books_id ON books (id)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [no key 0.00081s] ()
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0112 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [generated in 0.00113s] ()
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0019 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: INSERT INTO books (title, author, year, is_available) VALUES (?, ?, ?, ?) RETURNING id
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Parameters: ('Преступление и наказание', 'Федор Достоевский', 1866, 1)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - INSERT INTO books (title, author, year, is_available) VALUES (?, ?, ?, ?) RETURNING id
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [generated in 0.00023s (insertmanyvalues) 1/3 (ordered; batch not supported)] ('Преступление и наказание', 'Федор Достоевский', 1866, 1)
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0100 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: INSERT INTO books (title, author, year, is_available) VALUES (?, ?, ?, ?) RETURNING id
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Parameters: ('Война и мир', 'Лев Толстой', 1869, 0)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - INSERT INTO books (title, author, year, is_available) VALUES (?, ?, ?, ?) RETURNING id
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 2/3 (ordered; batch not supported)] ('Война и мир', 'Лев Толстой', 1869, 0)
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0025 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - SQL Query: INSERT INTO books (title, author, year, is_available) VALUES (?, ?, ?, ?) RETURNING id
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Parameters: ('Мастер и Маргарита', 'Михаил Булгаков', 1967, 1)
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - INSERT INTO books (title, author, year, is_available) VALUES (?, ?, ?, ?) RETURNING id
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - [insertmanyvalues 3/3 (ordered; batch not supported)] ('Мастер и Маргарита', 'Михаил Булгаков', 1967, 1)
+2025-11-11 21:13:40 - sqlalchemy.engine - INFO - Query executed in: 0.0013 seconds
+2025-11-11 21:13:40 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-11 21:13:46 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:13:46 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:13:46 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:13:46 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:13:46 - sqlalchemy.engine - INFO - Query executed in: 0.0008 seconds
+2025-11-11 21:13:46 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:14:05 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:14:05 - sqlalchemy.engine - INFO - Query executed in: 0.0018 seconds
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:14:05 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - [generated in 0.00081s] ()
+2025-11-11 21:14:05 - sqlalchemy.engine - INFO - Query executed in: 0.0017 seconds
+2025-11-11 21:14:05 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:14:17 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-11 21:14:17 - sqlalchemy.engine - INFO - Query executed in: 0.0009 seconds
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:14:17 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - [generated in 0.00052s] ()
+2025-11-11 21:14:17 - sqlalchemy.engine - INFO - Query executed in: 0.0012 seconds
+2025-11-11 21:14:17 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:14:57 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:14:57 - sqlalchemy.engine - INFO - SQL Query: SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books
+2025-11-11 21:14:57 - sqlalchemy.engine.Engine - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books
+2025-11-11 21:14:57 - sqlalchemy.engine.Engine - INFO - [generated in 0.00118s] ()
+2025-11-11 21:14:57 - sqlalchemy.engine - INFO - Query executed in: 0.0020 seconds
+2025-11-11 21:14:57 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:15:23 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:15:23 - sqlalchemy.engine - INFO - SQL Query: SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books
+2025-11-11 21:15:23 - sqlalchemy.engine.Engine - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books
+2025-11-11 21:15:23 - sqlalchemy.engine.Engine - INFO - [cached since 25.44s ago] ()
+2025-11-11 21:15:23 - sqlalchemy.engine - INFO - Query executed in: 0.0009 seconds
+2025-11-11 21:15:23 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-11 21:15:45 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-11 21:15:45 - sqlalchemy.engine - INFO - SQL Query: SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books  WHERE books.id = ?  LIMIT ? OFFSET ?
+2025-11-11 21:15:45 - sqlalchemy.engine - INFO - Parameters: (2, 1, 0)
+2025-11-11 21:15:45 - sqlalchemy.engine.Engine - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books 
+WHERE books.id = ?
+ LIMIT ? OFFSET ?
+2025-11-11 21:15:45 - sqlalchemy.engine.Engine - INFO - [generated in 0.00121s] (2, 1, 0)
+2025-11-11 21:15:45 - sqlalchemy.engine - INFO - Query executed in: 0.0016 seconds
+2025-11-11 21:15:45 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:21:26 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-12 10:21:26 - sqlalchemy.engine - INFO - Query executed in: 0.0046 seconds
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:21:26 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - [generated in 0.00061s] ()
+2025-11-12 10:21:26 - sqlalchemy.engine - INFO - Query executed in: 0.0011 seconds
+2025-11-12 10:21:26 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:28:48 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-12 10:28:48 - sqlalchemy.engine - INFO - Query executed in: 0.0011 seconds
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:28:48 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - [generated in 0.00062s] ()
+2025-11-12 10:28:48 - sqlalchemy.engine - INFO - Query executed in: 0.0011 seconds
+2025-11-12 10:28:48 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:30:00 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-12 10:30:00 - sqlalchemy.engine - INFO - Query executed in: 0.0013 seconds
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:30:00 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - [generated in 0.00137s] ()
+2025-11-12 10:30:00 - sqlalchemy.engine - INFO - Query executed in: 0.0032 seconds
+2025-11-12 10:30:00 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:30:12 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-12 10:30:12 - sqlalchemy.engine - INFO - Query executed in: 0.0014 seconds
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:30:12 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - [generated in 0.00053s] ()
+2025-11-12 10:30:12 - sqlalchemy.engine - INFO - Query executed in: 0.0009 seconds
+2025-11-12 10:30:12 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:30:59 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-12 10:30:59 - sqlalchemy.engine - INFO - Query executed in: 0.0009 seconds
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:30:59 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - [generated in 0.00057s] ()
+2025-11-12 10:30:59 - sqlalchemy.engine - INFO - Query executed in: 0.0010 seconds
+2025-11-12 10:30:59 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:32:16 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:32:16 - sqlalchemy.engine - INFO - SQL Query: SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books  WHERE books.id = ?  LIMIT ? OFFSET ?
+2025-11-12 10:32:16 - sqlalchemy.engine - INFO - Parameters: (2, 1, 0)
+2025-11-12 10:32:16 - sqlalchemy.engine.Engine - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books 
+WHERE books.id = ?
+ LIMIT ? OFFSET ?
+2025-11-12 10:32:16 - sqlalchemy.engine.Engine - INFO - [generated in 0.00218s] (2, 1, 0)
+2025-11-12 10:32:16 - sqlalchemy.engine - INFO - Query executed in: 0.0034 seconds
+2025-11-12 10:32:16 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:35:52 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-12 10:35:52 - sqlalchemy.engine - INFO - Query executed in: 0.0013 seconds
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:35:52 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - [generated in 0.00122s] ()
+2025-11-12 10:35:52 - sqlalchemy.engine - INFO - Query executed in: 0.0015 seconds
+2025-11-12 10:35:52 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-12 10:39:04 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-12 10:39:04 - sqlalchemy.engine - INFO - SQL Query: SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books  WHERE books.id = ?  LIMIT ? OFFSET ?
+2025-11-12 10:39:04 - sqlalchemy.engine - INFO - Parameters: (2, 1, 0)
+2025-11-12 10:39:04 - sqlalchemy.engine.Engine - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books 
+WHERE books.id = ?
+ LIMIT ? OFFSET ?
+2025-11-12 10:39:04 - sqlalchemy.engine.Engine - INFO - [generated in 0.00199s] (2, 1, 0)
+2025-11-12 10:39:04 - sqlalchemy.engine - INFO - Query executed in: 0.0027 seconds
+2025-11-12 10:39:04 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:38:57 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-26 07:38:57 - sqlalchemy.engine - INFO - Query executed in: 0.0077 seconds
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:38:57 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - [generated in 0.00254s] ()
+2025-11-26 07:38:57 - sqlalchemy.engine - INFO - Query executed in: 0.0048 seconds
+2025-11-26 07:38:57 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 07:39:41 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:39:41 - sqlalchemy.engine - INFO - SQL Query: SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books
+2025-11-26 07:39:41 - sqlalchemy.engine.Engine - INFO - SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books
+2025-11-26 07:39:41 - sqlalchemy.engine.Engine - INFO - [generated in 0.00255s] ()
+2025-11-26 07:39:41 - sqlalchemy.engine - INFO - Query executed in: 0.0054 seconds
+2025-11-26 07:39:41 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 07:41:11 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:41:11 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-26 07:41:11 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-26 07:41:11 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-26 07:41:11 - sqlalchemy.engine - INFO - Query executed in: 0.0044 seconds
+2025-11-26 07:41:11 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-26 07:41:11 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:41:11 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-26 07:41:11 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-26 07:41:11 - sqlalchemy.engine.Engine - INFO - [generated in 0.00163s] ()
+2025-11-26 07:41:11 - sqlalchemy.engine - INFO - Query executed in: 0.0031 seconds
+2025-11-26 07:41:12 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:44:21 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-26 07:44:21 - sqlalchemy.engine - INFO - Query executed in: 0.0094 seconds
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:44:21 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - [generated in 0.00355s] ()
+2025-11-26 07:44:21 - sqlalchemy.engine - INFO - Query executed in: 0.0085 seconds
+2025-11-26 07:44:21 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:45:00 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-26 07:45:00 - sqlalchemy.engine - INFO - Query executed in: 0.0140 seconds
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:45:00 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - [generated in 0.00322s] ()
+2025-11-26 07:45:00 - sqlalchemy.engine - INFO - Query executed in: 0.0064 seconds
+2025-11-26 07:45:00 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:56:07 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-26 07:56:07 - sqlalchemy.engine - INFO - Query executed in: 0.0090 seconds
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:56:07 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - [generated in 0.00204s] ()
+2025-11-26 07:56:07 - sqlalchemy.engine - INFO - Query executed in: 0.0058 seconds
+2025-11-26 07:56:07 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:58:08 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-26 07:58:08 - sqlalchemy.engine - INFO - Query executed in: 0.0088 seconds
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 07:58:08 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - [generated in 0.00430s] ()
+2025-11-26 07:58:08 - sqlalchemy.engine - INFO - Query executed in: 0.0093 seconds
+2025-11-26 07:58:08 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 08:01:19 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-11-26 08:01:19 - sqlalchemy.engine - INFO - Query executed in: 0.0048 seconds
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-11-26 08:01:19 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - [generated in 0.00147s] ()
+2025-11-26 08:01:19 - sqlalchemy.engine - INFO - Query executed in: 0.0037 seconds
+2025-11-26 08:01:19 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 14:41:50 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-09 14:41:50 - sqlalchemy.engine - INFO - Query executed in: 0.0061 seconds
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 14:41:50 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - [generated in 0.00261s] ()
+2025-12-09 14:41:50 - sqlalchemy.engine - INFO - Query executed in: 0.0086 seconds
+2025-12-09 14:41:50 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-09 21:39:23 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 21:39:23 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-09 21:39:23 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-09 21:39:23 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-09 21:39:23 - sqlalchemy.engine - INFO - Query executed in: 0.0057 seconds
+2025-12-09 21:39:23 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-09 21:39:24 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 21:39:24 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-09 21:39:24 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-09 21:39:24 - sqlalchemy.engine.Engine - INFO - [generated in 0.00080s] ()
+2025-12-09 21:39:24 - sqlalchemy.engine - INFO - Query executed in: 0.0015 seconds
+2025-12-09 21:39:24 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 21:45:00 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-09 21:45:00 - sqlalchemy.engine - INFO - Query executed in: 0.0039 seconds
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 21:45:00 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - [generated in 0.00179s] ()
+2025-12-09 21:45:00 - sqlalchemy.engine - INFO - Query executed in: 0.0044 seconds
+2025-12-09 21:45:00 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-09 21:49:01 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 21:49:01 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-09 21:49:01 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-09 21:49:01 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-09 21:49:01 - sqlalchemy.engine - INFO - Query executed in: 0.0035 seconds
+2025-12-09 21:49:01 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 21:51:49 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-09 21:51:49 - sqlalchemy.engine - INFO - Query executed in: 0.0022 seconds
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 21:51:49 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - [generated in 0.00134s] ()
+2025-12-09 21:51:49 - sqlalchemy.engine - INFO - Query executed in: 0.0016 seconds
+2025-12-09 21:51:49 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 22:03:11 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-09 22:03:11 - sqlalchemy.engine - INFO - Query executed in: 0.0025 seconds
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-09 22:03:11 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - [generated in 0.00094s] ()
+2025-12-09 22:03:11 - sqlalchemy.engine - INFO - Query executed in: 0.0016 seconds
+2025-12-09 22:03:11 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 08:39:53 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 08:39:53 - sqlalchemy.engine - INFO - Query executed in: 0.0068 seconds
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 08:39:53 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - [generated in 0.00097s] ()
+2025-12-10 08:39:53 - sqlalchemy.engine - INFO - Query executed in: 0.0020 seconds
+2025-12-10 08:39:53 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-10 08:45:06 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 08:45:06 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 08:45:06 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 08:45:06 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 08:45:06 - sqlalchemy.engine - INFO - Query executed in: 0.0026 seconds
+2025-12-10 08:45:06 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 08:45:21 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 08:45:21 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 08:45:21 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 08:45:21 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 08:45:21 - sqlalchemy.engine - INFO - Query executed in: 0.0062 seconds
+2025-12-10 08:45:21 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 08:45:22 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 08:45:22 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-10 08:45:22 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-10 08:45:22 - sqlalchemy.engine.Engine - INFO - [generated in 0.00544s] ()
+2025-12-10 08:45:22 - sqlalchemy.engine - INFO - Query executed in: 0.0072 seconds
+2025-12-10 08:45:22 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 08:47:41 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 08:47:41 - sqlalchemy.engine - INFO - Query executed in: 0.0000 seconds
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 08:47:41 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - [generated in 0.00140s] ()
+2025-12-10 08:47:41 - sqlalchemy.engine - INFO - Query executed in: 0.0020 seconds
+2025-12-10 08:47:41 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-10 09:22:24 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:22:24 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 09:22:24 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 09:22:24 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 09:22:24 - sqlalchemy.engine - INFO - Query executed in: 0.0060 seconds
+2025-12-10 09:22:24 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 09:22:33 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:22:33 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 09:22:33 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 09:22:33 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 09:22:33 - sqlalchemy.engine - INFO - Query executed in: 0.0051 seconds
+2025-12-10 09:22:33 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 09:22:34 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:22:34 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-10 09:22:34 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-10 09:22:34 - sqlalchemy.engine.Engine - INFO - [generated in 0.00111s] ()
+2025-12-10 09:22:34 - sqlalchemy.engine - INFO - Query executed in: 0.0000 seconds
+2025-12-10 09:22:34 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-10 09:26:39 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:26:39 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 09:26:39 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 09:26:39 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 09:26:39 - sqlalchemy.engine - INFO - Query executed in: 0.0027 seconds
+2025-12-10 09:26:39 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 09:26:43 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:26:43 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 09:26:43 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 09:26:43 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 09:26:43 - sqlalchemy.engine - INFO - Query executed in: 0.0025 seconds
+2025-12-10 09:26:43 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 09:26:46 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:26:46 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 09:26:46 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 09:26:46 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 09:26:46 - sqlalchemy.engine - INFO - Query executed in: 0.0000 seconds
+2025-12-10 09:26:46 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 09:26:54 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:26:54 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 09:26:54 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 09:26:54 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 09:26:54 - sqlalchemy.engine - INFO - Query executed in: 0.0000 seconds
+2025-12-10 09:26:54 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 09:26:55 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 09:26:55 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-10 09:26:55 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-10 09:26:55 - sqlalchemy.engine.Engine - INFO - [generated in 0.00082s] ()
+2025-12-10 09:26:55 - sqlalchemy.engine - INFO - Query executed in: 0.0000 seconds
+2025-12-10 09:26:55 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 10:11:40 - sqlalchemy.engine - INFO - SQL Query: PRAGMA main.table_info("books")
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("books")
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2025-12-10 10:11:40 - sqlalchemy.engine - INFO - Query executed in: 0.0000 seconds
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-12-10 10:11:40 - sqlalchemy.engine - INFO - SQL Query: SELECT count(*) AS count_1  FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available  FROM books) AS anon_1
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT books.id AS books_id, books.title AS books_title, books.author AS books_author, books.year AS books_year, books.is_available AS books_is_available 
+FROM books) AS anon_1
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - [generated in 0.00081s] ()
+2025-12-10 10:11:40 - sqlalchemy.engine - INFO - Query executed in: 0.0029 seconds
+2025-12-10 10:11:40 - sqlalchemy.engine.Engine - INFO - ROLLBACK
