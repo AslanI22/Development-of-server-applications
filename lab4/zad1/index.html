@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIPU Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="app-title">KIPU Chat</h1>
+
+        <div class="card">
+            <div id="loginContainer">
+                <h2 class="login-title">Войдите в чат</h2>
+                <input type="text" id="usernameInput" placeholder="Ваш никнейм">
+                <button class="btn" onclick="login()">Начать общение</button>
+            </div>
+
+            <div id="chatContainer">
+                <div class="chat-header">
+                    <div class="user-info">Вы: <span id="currentUsername"></span></div>
+                    <button class="btn btn-secondary" onclick="logout()">Выйти</button>
+                </div>
+
+                <ul id="messages"></ul>
+
+                <div class="chat-input-area">
+                    <div class="icon-btn" onclick="selectFile()" title="Отправить файл">📎</div>
+                    <input type="file" id="fileInput">
+                    <input type="text" id="messageInput" placeholder="Введите сообщение...">
+                    <div class="icon-btn" onclick="sendMessage()" title="Отправить сообщение">➤</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Лучший чат 
+        </div>
+    </div>
+
+    <script>
+        var socket = null;
+        var currentUsername = '';
+
+        function login() {
+            var usernameInput = document.getElementById('usernameInput');
+            var username = usernameInput.value.trim();
+
+            if (username === '') {
+                alert('Пожалуйста, введите никнейм');
+                return;
+            }
+
+            currentUsername = username;
+            socket = io('http://localhost:3000');
+
+            socket.on('connect', function () {
+                addSystemMessage('Вы подключились к чату');
+            });
+
+            socket.on('disconnect', function () {
+                addSystemMessage('Соединение прервано');
+            });
+
+            socket.on('message', function (data) {
+                if (!data.startsWith(currentUsername + ':')) {
+                    addMessage(data, 'other');
+                }
+            });
+
+            socket.on('file', function (data) {
+                // Создаем Data URL из полученных base64 данных
+                var dataUrl = 'data:' + data.file_type + ';base64,' + data.file_data;
+                addFileMessage(data.filename, data.sender, dataUrl, false);
+            });
+
+            document.getElementById('loginContainer').style.display = 'none';
+            document.getElementById('chatContainer').style.display = 'block';
+            document.getElementById('currentUsername').textContent = currentUsername;
+            document.getElementById('messageInput').focus();
+        }
+
+        function logout() {
+            if (socket) socket.disconnect();
+            currentUsername = '';
+            document.getElementById('messages').innerHTML = '';
+            document.getElementById('loginContainer').style.display = 'block';
+            document.getElementById('chatContainer').style.display = 'none';
+            document.getElementById('usernameInput').value = '';
+        }
+
+        function addSystemMessage(text) {
+            var messages = document.getElementById('messages');
+            var item = document.createElement('li');
+            item.textContent = text;
+            item.className = 'system-message';
+            messages.appendChild(item);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function addMessage(text, type) {
+            var messages = document.getElementById('messages');
+            var item = document.createElement('li');
+            item.textContent = text;
+            item.className = type + '-message';
+            messages.appendChild(item);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function addFileMessage(filename, sender, dataUrl, isMyFile) {
+            var messages = document.getElementById('messages');
+            var item = document.createElement('li');
+            item.className = 'file-message';
+
+            var prefix = isMyFile ? 'Вы: ' : sender + ': ';
+
+            // Создаем ссылку для скачивания Data URL
+            item.innerHTML = prefix +
+                '<a href="' + dataUrl + '" download="' + filename + '">' +
+                '📎 ' + filename +
+                '</a>';
+
+            messages.appendChild(item);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function sendMessage() {
+            var messageInput = document.getElementById('messageInput');
+            var message = messageInput.value.trim();
+
+            if (message === '') return;
+
+            var formattedMessage = currentUsername + ': ' + message;
+            socket.emit('message', formattedMessage);
+            addMessage('Вы: ' + message, 'my');
+            messageInput.value = '';
+        }
+
+        function selectFile() {
+            document.getElementById('fileInput').click();
+        }
+
+        document.getElementById('fileInput').addEventListener('change', function (e) {
+            var file = e.target.files[0];
+            if (file) sendFile(file);
+        });
+
+        function sendFile(file) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                socket.emit('file', {
+                    filename: file.name,
+                    data: e.target.result,
+                    sender: currentUsername,
+                    file_type: file.type || 'application/octet-stream'
+                });
+
+                // Для своих файлов используем Data URL для немедленного скачивания
+                addFileMessage(file.name, currentUsername, e.target.result, true);
+            };
+
+            reader.readAsDataURL(file);
+            document.getElementById('fileInput').value = '';
+        }
+
+        document.getElementById('messageInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') sendMessage();
+        });
+
+        document.getElementById('usernameInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') login();
+        });
+
+        document.getElementById('usernameInput').focus();
+    </script>
+</body>
+
+</html>
