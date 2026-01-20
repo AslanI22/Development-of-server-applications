@@ -5,18 +5,7 @@ __pycache__/
 *.so
 .Python
 env/
-venv/
 ENV/
-.venv
-
-# База данных
-*.db
-*.sqlite
-*.sqlite3
-
-# Логи
-logs/
-*.log
 
 # IDE
 .vscode/
@@ -27,15 +16,4 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
-
-# Docker
-Dockerfile
-.dockerignore
-*.dockerfile
-.docker
-
-# Docker Compose
-docker-compose.yml
-docker-compose.*.yml
-*.yaml
 
